@@ -1,3 +1,4 @@
+import asyncio
 import logging
 from telethon.sync import TelegramClient
 from spambot.config import Config
