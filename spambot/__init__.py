@@ -50,7 +50,7 @@ async def main():
         try:
             MafiaBot1 = TelegramClient("MafiaSpamBot1", api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN1)
             print("Bot Token 1 OK!")
-            MafiaBot1.start()
+            await MafiaBot1.start()
         except Exception as e:
             print(e)
             pass
@@ -59,7 +59,7 @@ async def main():
         try:
             session_name = "MafiaSpamBot1"
             MafiaBot1 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN1)
-            MafiaBot1.start()
+            await MafiaBot1.start()
         except Exception as e:
             pass
 
@@ -68,7 +68,7 @@ async def main():
         try:
             MafiaBot2 = TelegramClient("MafiaSpamBot2", api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN2)
             print("Bot Token 2 OK!")
-            MafiaBot2.start()
+            await MafiaBot2.start()
         except Exception as e:
             print(e)
             pass
@@ -77,7 +77,7 @@ async def main():
         try:
             session_name = "MafiaSpamBot2"
             MafiaBot2 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN2)
-            MafiaBot2.start()
+            await MafiaBot2.start()
         except Exception as e:
             pass
     
@@ -86,7 +86,7 @@ async def main():
         try:
             MafiaBot3 = TelegramClient("MafiaSpamBot3", api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN3)
             print("Bot Token 3 OK!")
-            MafiaBot3.start()
+            await MafiaBot3.start()
         except Exception as e:
             print(e)
             pass
@@ -95,7 +95,7 @@ async def main():
         try:
             session_name = "MafiaSpamBot3"
             MafiaBot3 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN3)
-            MafiaBot3.start()
+            await MafiaBot3.start()
         except Exception as e:
             pass
 
@@ -104,7 +104,7 @@ async def main():
         try:
             MafiaBot4 = TelegramClient("MafiaSpamBot4", api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN4)
             print("Bot Token 4 OK!")
-            MafiaBot4.start()
+            await MafiaBot4.start()
         except Exception as e:
             print(e)
             pass
@@ -113,7 +113,7 @@ async def main():
         try:
             session_name = "MafiaSpamBot4"
             MafiaBot4 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN4)
-            MafiaBot4.start()
+            await MafiaBot4.start()
         except Exception as e:
             pass
     
@@ -122,7 +122,7 @@ async def main():
         try:
             MafiaBot5 = TelegramClient("MafiaSpamBot5", api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN5)
             print("Bot Token 5 OK!")
-            MafiaBot5.start()
+            await MafiaBot5.start()
         except Exception as e:
             print(e)
             pass
@@ -131,7 +131,7 @@ async def main():
         try:
             session_name = "MafiaSpamBot5"
             MafiaBot5 = TelegramClient(session_name, api_id=API_ID, api_hash=API_HASH).start(bot_token=BOT_TOKEN5)
-            MafiaBot5.start()
+            await MafiaBot5.start()
         except Exception as e:
             pass
 
