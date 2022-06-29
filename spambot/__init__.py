@@ -5,20 +5,20 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-API_ID = Config.API_ID or 2184829
-API_HASH = Config.API_HASH or "6930b92388baabff4cb4a1d377085035"
+API_ID = int(Config.API_ID) if Config.API_ID else 2184829
+API_HASH = str(Config.API_HASH) if Config.API_HASH else "6930b92388baabff4cb4a1d377085035"
 BOT_TOKEN1 = Config.BOT_TOKEN1
 BOT_TOKEN2 = Config.BOT_TOKEN2
 BOT_TOKEN3 = Config.BOT_TOKEN3
 BOT_TOKEN4 = Config.BOT_TOKEN4
 BOT_TOKEN5 = Config.BOT_TOKEN5
 OWNER_ID = Config.OWNER_ID
-OWNER_NAME = Config.OWNER_NAME or "MafiaSpamBot"
-OWNER_USERNAME = Config.OWNER_USERNAME or "MafiaBot_Support"
+OWNER_NAME = str(Config.OWNER_NAME) if Config.OWNER_NAME else "MafiaSpamBot"
+OWNER_USERNAME = str(Config.OWNER_USERNAME) if Config.OWNER_USERNAME else "MafiaBot_Support"
 CO_OWNER_ID = Config.CO_OWNER_ID
 SUDO_USERS = Config.SUDO_USERS
-DISPLAY_PIC = Config.DISPLAY_PIC or "https://telegra.ph/file/0db6ef22ae3b481c3891c.jpg"
-BIO_MSG = Config.BIO_MSG or "Mafia Spam Bot Ready To Fuck Haters!"
+DISPLAY_PIC = str(Config.DISPLAY_PIC) if Config.DISPLAY_PIC else "https://telegra.ph/file/0db6ef22ae3b481c3891c.jpg"
+BIO_MSG = str(Config.BIO_MSG) if Config.BIO_MSG else "Mafia Spam Bot Ready To Fuck Haters!"
 
 
 BOT_VERSION = 1.0
