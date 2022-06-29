@@ -1,5 +1,3 @@
 from spambot import *
-from spambot.config.Config import *
-from spambot.helpers.plinks import *
-from spambot.helpers.gspam import *
-from spambot.helpers.commands import *
+from spambot.helpers import *
+from spambot.config import Config
