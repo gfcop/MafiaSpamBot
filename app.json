@@ -49,7 +49,7 @@
     },
     "OWNER_ID": {
       "description": "Enter Your Telegram User ID To Get Full Access Of Your Bot. Go To Rose Bot And Send /id To Get Your Owner User ID. Only One User Can Be Owner Of Bot!",
-      "value": "",
+      "value": ""
     },
     "CO_OWNER_ID": {
       "description": "Enter Your Co-Owner's Telegram User ID To Get Full Access Of Bot. Go To Rose Bot And Send /id To Get Your Co-Owner User ID. Don't Put Comma ( , ) In Vars Just Give A Space And Put Another User ID!",
