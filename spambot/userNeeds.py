@@ -1,5 +1,6 @@
 import os
 from spambot import *
+from spambot import MafiaBot1
 from pathlib import Path
 from telethon import events
 from spambot.__main__ import load_plugs

@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 from sys import argv
 from spambot import *
-
+from spambot import MafiaBot1, MafiaBot2, MafiaBot3, MafiaBot4, MafiaBot5
 
 def load_plugs(plugname):
     modules = Path(f"spambot/plugins/{plugname}.py")
