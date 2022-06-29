@@ -37,6 +37,16 @@ LIMIT.extend(CO_OWNER_ID)
 
 GOD_USERS.append(OWNER_ID)
 
+MafiaBot1 = ""
+
+MafiaBot2 = ""
+
+MafiaBot3 = ""
+
+MafiaBot4 = ""
+
+MafiaBot5 = ""
+
 if BOT_TOKEN1:
     print("Working On Bot Token 1!")
     try:
