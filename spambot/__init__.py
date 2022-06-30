@@ -6,8 +6,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-API_ID = int(Config.API_ID) if Config.API_ID else 2184829
-API_HASH = str(Config.API_HASH) if Config.API_HASH else "6930b92388baabff4cb4a1d377085035"
+API_ID = Config.API_ID
+API_HASH = Config.API_HASH
 BOT_TOKEN1 = Config.BOT_TOKEN1
 BOT_TOKEN2 = Config.BOT_TOKEN2
 BOT_TOKEN3 = Config.BOT_TOKEN3
