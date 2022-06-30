@@ -1,7 +1,7 @@
 from spambot import *
 from spambot import MafiaBot1, MafiaBot2, MafiaBot3, MafiaBot4, MafiaBot5
 from spambot.helpers.commands import *
-from telethon.sync import events, Button
+from telethon import events, Button
 
 
 Buttons = [
