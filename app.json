@@ -73,13 +73,11 @@
     },
     "API_ID": {
       "description": "Enter Your Telegram Api Id. Get It From my.telegram.org!",
-      "value": "",
-      "required": false
+      "value": ""
     },
     "API_HASH": {
       "description": "Enter Your Telegram Api Hash. Get It From my.telegram.org!",
-      "value": "",
-      "required": false
+      "value": ""
     }
   },
   "buildpacks": [
