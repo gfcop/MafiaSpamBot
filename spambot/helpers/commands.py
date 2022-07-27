@@ -18,9 +18,9 @@ To Raid On Enemies!
 
 ✮ `/sraid` - To Stop Mention Raid On Enemies! Use In Reply Of User Message Or Give Username! - `(SUDO:- True)`
 
-✮ `/raid` - To Start Raid On Enemy! - `(SUDO:- False)`
+✮ `/raid` - To Start Raid On Enemy! - `(SUDO:- True)`
 
-✮ `/draid` - To  Stop Raid On Enemy! - `(SUDO:- False)`
+✮ `/draid` - To  Stop Raid On Enemy! - `(SUDO:- True)`
 """
 
 REPLYRAID_CMD = """
